@@ -330,35 +330,35 @@ export default class ImageOpsContainer extends React.Component {
                         </Card>
                     </Grid>
                     <Grid xs={12}>
-                    <Card item xs={6}>
-                    <CardContent>
-                        <Box color="text.primary">
-                            <Typography paragraph={true} variant="h5" align="left" component="h5">
-                                Advance Filters By Cloudinary
-                            </Typography>
-                            
-                            <Button variant="contained" align="left" onClick={() => this.createAdvanceEffects("cartoon")} >
-                                Cartoonify
-                            </Button>
-                            <Button variant="contained" align="left" onClick={() => this.createAdvanceEffects("vignette")} >
-                                Vignette
-                            </Button>
+                        <Card item xs={6}>
+                            <CardContent>
+                                <Box color="text.primary">
+                                    <Typography paragraph={true} variant="h5" align="left" component="h5">
+                                        Advance Filters By Cloudinary
+                                    </Typography>
+                                    
+                                    <Button variant="contained" align="left" onClick={() => this.createAdvanceEffects("cartoon")} >
+                                        Cartoonify
+                                    </Button>
+                                    <Button variant="contained" align="left" onClick={() => this.createAdvanceEffects("vignette")} >
+                                        Vignette
+                                    </Button>
 
-                            <Button variant="contained" align="left" onClick={() => this.createAdvanceEffects("oil_painting")} >
-                                Oil Painting
-                            </Button>
+                                    <Button variant="contained" align="left" onClick={() => this.createAdvanceEffects("oil_painting")} >
+                                        Oil Painting
+                                    </Button>
 
-                            <Button variant="contained" align="left" onClick={() => this.createAdvanceEffects("vibrance")} >
-                                vibrance
-                            </Button>
+                                    <Button variant="contained" align="left" onClick={() => this.createAdvanceEffects("vibrance")} >
+                                        vibrance
+                                    </Button>
 
-                            <Button variant="contained" align="left" onClick={() => this.resetFilters(["vignette", "cartoonify", "vibrance", "oil_paint"])} color="primary">
-                                Reset
-                            </Button>
-                        
-                        </Box>
-                    </CardContent>
-                </Card>
+                                    <Button variant="contained" align="left" onClick={() => this.resetFilters(["vignette", "cartoonify", "vibrance", "oil_paint"])} color="primary">
+                                        Reset
+                                    </Button>
+                                
+                                </Box>
+                            </CardContent>
+                        </Card>
                     </Grid>
                 </Grid>
                 
