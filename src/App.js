@@ -4,7 +4,7 @@ import './App.css';
 
 
 
-import ImageOpsContainer from './Components/ImageOps';
+import ImageOpsContainer from './Container/ImageOps';
 
 function App() {
   return (
