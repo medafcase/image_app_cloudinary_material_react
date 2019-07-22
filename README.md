@@ -1,5 +1,7 @@
 Live app link - https://cryptic-sierra-27182.herokuapp.com/
 
+Read the blog post - https://overflowjs.com/posts/Image-Processing-In-Reactjs-Part-1.html
+
 ## Used libs
 https://material-ui.com
 https://cloudinary.com (React SDK)
