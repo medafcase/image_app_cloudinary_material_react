@@ -218,7 +218,7 @@ export default class ImageOpsContainer extends React.Component {
                                 <Typography variant="body2" color="textSecondary" component="p">
                                     Input image
                                 </Typography>
-                                <Image publicId="leena" cloudName="rakesh111" >
+                                <Image sign_url={true} publicId="leena" cloudName="rakesh111" >
                                 </Image>
                             </CardContent>
                        </Card>
@@ -299,7 +299,7 @@ export default class ImageOpsContainer extends React.Component {
                                         )
                                     })}
 
-                                    <Button variant="contained" align="left" onClick={() => this.resetFilters(["hue", "saturation"])} color="primary">
+                                    <Button variant="contained" align="left" onClick={() => this.resetFilters(["hue", "saturation", "brightness"])} color="primary">
                                         Reset
                                     </Button>
                                   
